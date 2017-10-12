@@ -11,3 +11,8 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(DebianPlugin)
+maintainer := "Conor Ryan <office@conorryan.ie>"
+packageSummary := "Trading app package"
+packageDescription := "The packaged Trading App"
